@@ -1,0 +1,26 @@
+# Ignore SQLite database file
+*.sqlite3
+
+# Ignore development server settings
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore local environment variables
+.env
+
+# Ignore IDE files and directories
+.vscode/
+.idea/
+
+# Ignore static files collected during production
+static/
+
+# Ignore media files uploaded by users
+media/
+
+# Ignore database migrations
+**/migrations/
+
+# Ignore the virtual environment
+env/
